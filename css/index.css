@@ -1,0 +1,105 @@
+/***********************************通用的样式*************************************/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+/***********************************头部的样式*************************************/
+#my_header{
+
+}
+
+@font-face
+{
+font-family: icomoon;
+src: url('../fonts/icomoon.eot') format('embeded-opentype'),
+url('../fonts/icomoon.svg') format('svg'),
+url('../fonts/icomoon.ttf') format('truetype'),
+url('../fonts/icomoon.woff') format('woff');
+} 
+/*模糊匹配*/
+[class^="icon-"],
+[class*=" icon-"]{
+    font-family: icomoon;
+    font-style: normal;
+}
+
+#my_header .top-bar{
+    height: 40px;
+    line-height: 39px;
+    border-bottom: 1px solid#e0e0e0;
+}
+
+#my_header .top-bar .row>div+div{
+    border-left: 1px solid#e0e0e0;
+}
+
+#my_header .top-bar .row .top-bar1 a{
+    position: relative;
+}
+
+#my_header .top-bar .container-fluid .row .top-bar1 a img{
+    display: none;
+    position: absolute;
+    left:50%;
+    margin-left: -60px;
+    margin-top: -10px;
+    z-index: 9999;
+}
+
+#my_header .top-bar .container-fluid .row .top-bar1 a:hover img{
+    display: block;
+}
+
+#my_header .navbar-my{
+    background-color: #ffffff;
+    margin-bottom: 0px;
+}
+
+#my_header .navbar-my .navbar-brand{
+    height: 70px;
+    padding: 10px 15px;
+}
+
+#my_header .navbar-my .navbar-nav a{
+    height: 70px;
+    line-height: 40px;
+}
+
+#my_header .navbar-my .navbar-nav li.active a,
+#my_header .navbar-my .navbar-nav li a:hover{
+    background-color: transparent;
+    border-bottom: 2px solid #337ab7;
+}
+
+#my_header .navbar-my .navbar-toggle{
+    margin-top: 18px;
+}
+
+.icon-phone::before{
+    content: '\e938';
+    font-size: 13px;
+}
+
+.icon-tel::before{
+    content: '\e942';
+    font-size: 13px;
+}
+
+
+/***********************************轮播图样式*************************************/
+#my_carousel{
+
+}
+
+#my_carousel .item{
+    background: no-repeat center center;
+    -webkit-background-size : cover;
+    background-size: cover;
+}
+/***********************************监听屏幕的值为800时*************************************/
+
+@media screen and (min-width: 800px){
+    #my_carousel .item{
+        height: 410px;
+    }
+}
