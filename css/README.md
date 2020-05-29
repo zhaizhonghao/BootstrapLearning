@@ -50,3 +50,11 @@ a就是a标签呈现时候的样式，a:hover表示鼠标停留在上面才会�
         border-bottom: 2px solid #337ab7;
     }
 ```
+* 文字居中
+```css
+    <div class="title text-center">
+            <h1><strong>关于我们</strong></h1>
+    </div>
+```
+
+* text-muted表示字体颜色是灰色的

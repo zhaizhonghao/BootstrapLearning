@@ -103,3 +103,24 @@ url('../fonts/icomoon.woff') format('woff');
         height: 410px;
     }
 }
+
+/***********************************关于我们*************************************/
+#my_about {
+    padding: 20px 0;
+}
+
+#my_about .title{
+    padding-bottom: 15px;
+}
+
+#my_about .container .row .team{
+    width: 400px;
+    height: 300px;
+    background: no-repeat center center;
+    background-size: 100%;
+}
+
+#my_about .container .row p{
+    line-height: 30px;
+    font-size: 15px;
+}
