@@ -121,7 +121,9 @@ Bootstrap 提供了一套响应式、移动设备优先的流式栅格系统(con
         </div>
       </div>
 ```
+* badge标签是徽章
 
+* style里面的cursor：pointer表示鼠标停留上面会有小手显示
 
 
 

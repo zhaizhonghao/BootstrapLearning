@@ -55,3 +55,12 @@
     let $img = "<img src='"+src+"'>";
     $(item).empty().append($img);
 ```
+* role="presentation"表示这个是选项卡
+
+* class中的pull-right表示将元素向右浮动
+
+* class中的lead表示将段落突出显示
+
+* class中的img-responsive表示图片的大小根据屏幕的大小自适应
+
+* class中的img-round表示图片呈圆角
