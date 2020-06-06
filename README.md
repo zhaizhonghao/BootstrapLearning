@@ -125,7 +125,41 @@ Bootstrap 提供了一套响应式、移动设备优先的流式栅格系统(con
 
 * style里面的cursor：pointer表示鼠标停留上面会有小手显示
 
+* 栅格布局还可以嵌套使用，例如下面,这样可以灵活地来布局
+```html
+    <div class="container">
+      <div class="row" style="padding-top: 20px;">
+        <div class="col-md-3 col-md-offset-1 one">
+          <div class="row">
+            <ul class="col-md-6 ">
+              <li><a href="">关于我们</a></li>
+              <li><a href="">课程介绍</a></li>
+              <li><a href="">热门课程</a></li>
+            </ul>
+            <ul class="col-md-6">
+              <li><a href="">名师授课</a></li>
+              <li><a href="">课堂活动</a></li>
+              <li><a href="">联系我们</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 two">
+          <h5>公司地址：上海市松江区松江大学城</h5>
+          <h5>联系电话：188888888</h5>
+          <h5>地址邮箱：12312312@qq.com</h5>
+        </div>
+        <div class="col-md-3 three">
+          <h5>联系我们</h5>
+          <a href="">
+            <img src="imgs/weixin.png" alt="" width="50px"  data-toggle="tooltip" data-placement="bottom" title="关注微信">
+            <img src="imgs/weibo.jpg" alt="" width="50px" data-toggle="tooltip" data-placement="bottom" title="关注微博">
+          </a>
+        </div>
+      </div>
+    </div>
+```
 
+* 
 
 
 

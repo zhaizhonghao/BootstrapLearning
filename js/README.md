@@ -64,3 +64,11 @@
 * class中的img-responsive表示图片的大小根据屏幕的大小自适应
 
 * class中的img-round表示图片呈圆角
+
+* `$('[data-toggle="tooltip"]').tooltip()`表示用到了bootstrap的提示框
+下面界面中用到的就是bootstrap的提示框
+```html
+    <img src="imgs/weixin.png" alt="" width="50px"  data-toggle="tooltip" data-placement="bottom" title="关注微信">
+    <img src="imgs/weibo.jpg" alt="" width="50px" data-toggle="tooltip" data-placement="bottom" title="关注微博">
+```
+

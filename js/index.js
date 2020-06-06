@@ -32,4 +32,6 @@ $(function(){
     });
 
     $(window).trigger("resize");
+
+    $('[data-toggle="tooltip"]').tooltip()
 });

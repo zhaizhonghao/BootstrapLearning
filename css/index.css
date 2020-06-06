@@ -3,6 +3,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
 }
+
+#my_about,#my_hot,#my_link {
+    padding: 20px 0;
+}
+
+#my_about .title,#my_hot .title,#my_link .title{
+    padding-bottom: 15px;
+}
 /***********************************头部的样式*************************************/
 #my_header{
 
@@ -105,13 +113,7 @@ url('../fonts/icomoon.woff') format('woff');
 }
 
 /***********************************关于我们*************************************/
-#my_about {
-    padding: 20px 0;
-}
 
-#my_about .title{
-    padding-bottom: 15px;
-}
 
 #my_about .container .row .team{
     width: 400px;
@@ -168,4 +170,72 @@ url('../fonts/icomoon.woff') format('woff');
 
 #my_product #pd_two_1{
    padding: 100px 0px; 
+}
+
+/***********************************热门课程*************************************/
+#my_hot .lesson{
+    padding: 15px 10px; 
+}
+
+#my_hot .lesson .media-left{
+    width: 20%;
+}
+
+#my_hot .lesson .media-body{
+    width: 60%;
+    vertical-align: middle;
+}
+
+#my_hot .lesson .media-right{
+    width: 20%;
+    vertical-align: middle;
+}
+
+/***********************************脚注*************************************/
+#my_footer{
+    width: 100%;
+    height: 200px;
+    background: url('../imgs/ft_bg.jpg') no-repeat center;
+    background-size: cover;
+
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#my_footer ul{
+    list-style: none;
+}
+
+#my_footer .one,#my_footer .two{
+    padding: 10px;
+    border-right: 1px solid #ffffff;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#my_footer .one li{
+    line-height: 40px;
+}
+
+#my_footer .one li a{
+    color: #ffffff;
+}
+
+#my_footer .three{
+    padding: 10px 50px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#my_footer .three a{
+    margin-right: 15px;
+    text-decoration: none;
 }

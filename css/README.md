@@ -59,4 +59,19 @@ a就是a标签呈现时候的样式，a:hover表示鼠标停留在上面才会�
 
 * text-muted表示字体颜色是灰色的
 
+* `list-style: none;`表示取消li标签前面的点
 
+* `text-decoration: none;`取消a标签下面的下划线
+
+* 下面是居中垂直居中对齐的一种方式
+```css
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+```
